@@ -15,7 +15,7 @@
             @apply text-[1.425rem] font-light;
         }
         .red-btn{
-            @apply bg-[#e50914] py-[6px] px-[25px] flex items-center rounded-sm text-[1.625rem] font-light;
+            @apply bg-[#e50914] py-[6px] px-[25px] flex items-center rounded-sm text-[1.25rem] font-light;
         }
     </style>
 </head>
@@ -30,9 +30,7 @@
         <div class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-black/90 via-black/10 to-black/80"></div>
 
 <!-- Navigation Bar -->
-<div class="relative z-10">
-    
-</div>
+
         <div class="flex items-center justify-between h-16 w-full px-[55px] pt-[15px] z-10 relative">  <!-- Netflix logo show on top use z-10 & relative -->
             <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="text-[#e50914] fill-current h-[36px]">
                 <g>
@@ -50,21 +48,34 @@
                 </g>
             </svg>
             
-            <a href="#" class="bg-red-600 px-[10px] py-[10px] rounded-full text-white text-[15px]">Sign In</a>
+            <a href="#" class="bg-red-600 px-[12px] py-[8px] rounded-xl text-white text-[15px]">Sign In</a>
             
         </div>
         
         
 <!-- Main Text -->
 
-        <div class="relative z-10 flex flex-col items-center text-center px-3 justify-center w-[80%] max-w-[800px] text-white h-full mx-auto gap-2">
-           <h1 class="max-w-screen-sm title">Unlimited Movies, TV Shows & More</h1>
-           <p class="subtitle py-[2px]">Start at LKR 999.99 Cancel Anytime.</p> 
-           <p class="text-[1.1rem] font-light">Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="relative z-10 flex flex-col items-center text-center px-3 justify-center w-[80%] max-w-[800px] text-white h-full mx-auto gap-2">
+        <h1 class="max-w-screen-sm title">Unlimited Movies, TV Shows & More</h1>
+        <p class="subtitle py-[2px]">Start at LKR 999.99 Cancel Anytime.</p> 
+        <p class="text-[1.1rem] font-light">Ready to watch? Enter your email to create or restart your membership.</p>
            
-           
+        <div class="flex justify-center w-full h-12"> 
+            <input type="text" placeholder="Email Address" class="w-[50%] px-[10px] py-2 bg-white placeholder:text-xs"> 
+            <button class="red-btn"> 
+                <snap>Get Started</snap> 
+                <svg class="w-5 h-5 text-white fill-current" width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" data-mirrorinrtl="true" class="default-ltr-cache-4z3qvp e1svuwfo1" 
+                    data-name="ChevronRight" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 
+                    12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z" fill="currentColor"></path>
+                </svg>
+             </button> 
+
+            </div>
             
         </div>
+    </div>
+    <div class="relative z-10">
+        <p class="text-white text-[10px] ">©NPAN_ALOKA</p>   
     </div>
     
     
